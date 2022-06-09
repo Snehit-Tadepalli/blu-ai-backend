@@ -1,5 +1,5 @@
 exports.allowedList = [
-  "	ace	",
+  "ace",
   "	als	",
   "	ami	",
   "	ar	",
