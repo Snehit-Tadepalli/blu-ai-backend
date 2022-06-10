@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const dotenv = require("dotenv").config({ path: "./config.env" });
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 const state = require("./state");
 const resetState = require("./utils/resetState");
